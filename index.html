@@ -1,0 +1,2307 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="img/ico/ficon.ico">
+    <link rel="icon" sizes="48x48" href="img/ico/icon.ico">
+    <title>N-age 古惑人生 | 風雲再起</title>
+    <link rel="stylesheet" href="css/rest.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rwd.css">
+</head>
+
+<body class="webp">
+    <div class="wrap">
+        <!-- pop -->
+        <div class="mask popup_close" id="pre_01">
+            <div class="popbg">
+                <div class="popti marg0">注意事項
+                    <div class="close scale95 imgs popup_close"></div>
+                </div>
+                <div class="popinfo">
+                    <div>
+                        <ol>
+                            <li>以2022/11/17伺服器維護時段之聯盟名單為準。</li>
+                            <li>每帳號限領取一次。</li>
+                            <li>活動獎勵於活動結束後7日內開放領取，屆時請至官網「領獎專區」領取。</li>
+                            <li>掘夢網保有中止、變更以及解釋活動規則的最終權利。</li>
+                            <li>※黃字標註之道具期限，以該道具從提領中心提領之當下起算，到期後將自動由系統回收。</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mask popup_close" id="pre_02">
+            <div class="popbg">
+                <div class="popti marg0">注意事項
+                    <div class="close scale95 imgs popup_close"></div>
+                </div>
+                <div class="popinfo">
+                    <div>
+                        <ol>
+                            <li>每帳號限領取一次。</li>
+                            <li>活動獎勵於活動結束後7日內開放領取，屆時請至官網「領獎專區」領取。</li>
+                            <li>活動參加、得獎資格與獎項，不得轉讓或贈與第三人、轉移至其他帳號。</li>
+                            <li>本活動各項辦法及規定，以官方說明為準，掘夢網公司擁有活動最終保留、變更、修改或撤回、取消獎項發送之權利。</li>
+                            <li>※黃字標註之道具期限，以該道具從提領中心提領之當下起算，到期後將自動由系統回收。</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mask popup_close" id="pre_03">
+            <div class="popbg">
+                <div class="popti marg0">注意事項
+                    <div class="close scale95 imgs popup_close"></div>
+                </div>
+                <div class="popinfo">
+                    <div>
+                        <ol>
+                            <li>每個帳號僅能領取一次獎勵。</li>
+                            <li>所有道具為不可交易形式。</li>
+                            <li>活動獎勵請玩家於達成獎勵資格後至「獎勵領取專區」登入領取，獎勵將發送到指定角色的提領中心(遊戲內右上角MAIL)。</li>
+                            <li>本活動各項辦法及規定，以官方說明為準，掘夢網公司擁有活動最終保留、變更、修改或撤回、取消獎項發送之權利。</li>
+                            <li>※黃字標註之道具期限，以該道具從提領中心提領之當下起算，到期後將自動由系統回收。</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mask popup_close" id="pre_04">
+            <div class="popbg">
+                <div class="popti marg0">注意事項
+                    <div class="close scale95 imgs popup_close"></div>
+                </div>
+                <div class="popinfo">
+                    <div>
+                        <ol>
+                            <li>系統BUG回報僅限首名回報成功玩家可以獲得獎勵。</li>
+                            <li>活動獎勵於活動結束後7日內開放領取，屆時請至官網「領獎專區」領取。</li>
+                            <li>活動參加、得獎資格與獎項，不得轉讓或贈與第三人、轉移至其他帳號。</li>
+                            <li>本活動各項辦法及規定，以官方說明為準，掘夢網公司擁有活動最終保留、變更、修改或撤回、取消獎項發送之權利。</li>
+                            <li>※黃字標註之道具期限，以該道具從提領中心提領之當下起算，到期後將自動由系統回收。</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mask popup_close" id="pre_05">
+            <div class="popbg">
+                <div class="popti marg0">注意事項
+                    <div class="close scale95 imgs popup_close"></div>
+                </div>
+                <div class="popinfo">
+                    <div>
+                        <h4 style="margin-left: 20px;">【加倍樂】</h4>
+                        <ol>
+                            <li>實際活動效果以遊戲中顯示為準。</li>
+                            <li>本活動各項辦法及規定，以官方說明為準，掘夢網公司擁有活動最終保留、變更、修改或撤回、取消獎項發送之權利。</li>
+                        </ol>
+                        <h4 style="margin-left: 20px;">【擺攤樂】</h4>
+                        <ol>
+                            <li>活動中若有玩家惡意、蓄意阻止其他玩家參與活動，GM有權將干擾活動的角色移至其他地點，嚴重者亦會直接驅逐離線，甚至依遊戲管理規章條例進行必要處分。</li>
+                            <li>玩家於活動時間內若因伺服器斷線或其他不可抗拒之因素而無法參加活動，將不給予任何賠償及活動補辦。</li>
+                            <li>活動中玩家間的任何糾紛，線上官方人員將不進行干涉，請玩家自行處理，建議各位玩家以理性處理糾紛，以免破壞參與活動之初衷喔！</li>
+                            <li>本活動各項辦法及規定，以官方說明為準，掘夢網公司擁有活動最終保留、變更、修改或撤回、取消獎項發送之權利。</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mask popup_close" id="pre_06">
+            <div class="popbg">
+                <div class="popti marg0">注意事項
+                    <div class="close scale95 imgs popup_close"></div>
+                </div>
+                <div class="popinfo">
+                    <div>
+                        <ol>
+                            <li>每個帳號僅能領取一次獎勵。</li>
+                            <li>擊殺記錄以系統資料為主。</li>
+                            <li>本活動各項辦法及規定，以官方說明為準，掘夢網公司擁有活動最終保留、變更、修改或撤回、取消獎項發送之權利。
+                            </li>
+                            <li>※黃字標註之道具期限，以該道具從提領中心提領之當下起算，到期後將自動由系統回收。</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mask popup_close" id="pre_07">
+            <div class="popbg">
+                <div class="popti marg0">注意事項
+                    <div class="close scale95 imgs popup_close"></div>
+                </div>
+                <div class="popinfo">
+                    <div>
+                        <ol>
+                            <li>活動獎勵於活動結束後7日內開放領取，屆時請至官網「領獎專區」領取。</li>
+                            <li>全套校服含帽子、上衣及褲子。</li>
+                            <li>本活動各項辦法及規定，以官方說明為準，掘夢網公司擁有活動最終保留、變更、修改或撤回、取消獎項發送之權利。</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mask popup_close" id="pre_08">
+            <div class="popbg">
+                <div class="popti marg0">注意事項
+                    <div class="close scale95 imgs popup_close"></div>
+                </div>
+                <div class="popinfo">
+                    <div>
+                        <ol>
+                            <li>每個帳號僅能領取一次獎勵，並請玩家至「獎勵領取專區」登入領取獎勵。</li>
+                            <li>本活動為「消費」性質活動，消費意即於遊戲商城中，使用「點數」購買任意金額道具的行為。「儲值」金額不列入活動標準。</li>
+                            <li>本活動獎勵領取期限至11/27(日)23:59止，逾時者恕不予補發。</li>
+                            <li>本活動各項辦法及規定，以官方說明為準，掘夢網公司擁有活動最終保留、變更、修改或撤回、取消獎項發送之權利。</li>
+                            <li>※黃字標註之道具期限，以該道具從提領中心提領之當下起算，到期後將自動由系統回收。</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mask popup_close" id="pre_09">
+            <div class="popbg">
+                <div class="popti marg0">注意事項
+                    <div class="close scale95 imgs popup_close"></div>
+                </div>
+                <div class="popinfo">
+                    <div>
+                        <ol>
+                            <li>實際活動效果以遊戲中顯示為準。</li>
+                            <li>本活動各項辦法及規定，以官方說明為準，掘夢網公司擁有活動最終保留、變更、修改或撤回、取消獎項發送之權利。</li>
+                            <li>※黃字標註之道具期限，以該道具自寶箱開啟當下起算，到期後將自動由系統回收。</li>
+                            <li>活動結束後，NPC將停止兌換萬聖節限定面具。</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RWDmenu -->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <li><a href="#" class="logo imgs"></a></li>
+                    <li>
+                        <div class="loginbox">
+                            <h2>11111111111111111</h2>
+                            <a href="#" target="_blank" class="loginbtn scale95"><h2>登入</h2></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://nage.digeam.com/event/prereg/" target="_blank" class="menubtn scale95"><h2>事前預約</h2></a>
+                        <a href="https://nage.digeam.com/download/" target="_blank" class="menubtn scale95"><h2>遊戲下載</h2></a>
+                        <a href="https://www.digeam.com/register" target="_blank" class="menubtn scale95"><h2>會員註冊</h2></a>
+                    </li>
+                    <li>
+                        <div class="iconbox">
+                            <a href="https://forum.gamer.com.tw/A.php?bsn=6358" target="_blank" class="scale95">
+                                <div class="baha marg0 imgs "></div>
+                            </a>
+                            <a href="https://www.facebook.com/DiGeamNage" target="_blank" class="scale95">
+                                <div class="fb marg0 imgs"></div>
+                            </a>
+                            <a href="https://nage.digeam.com/index/" target="_blank" class="scale95">
+                                <div class="home marg0 imgs"></div>
+                            </a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- ----------page01----------- -->
+        <div class="page01 imgb">
+            <div class="topbar">
+                <a href="" target="_blank" class="logo imgs scale95"></a>
+                <div class="iconbox">
+                    <a href="https://forum.gamer.com.tw/A.php?bsn=6358" target="_blank" class="scale95">
+                        <div class="baha marg0 imgs "></div>
+                    </a>
+                    <a href="https://www.facebook.com/DiGeamNage" target="_blank" class="scale95">
+                        <div class="fb marg0 imgs"></div>
+                    </a>
+                    <a href="https://nage.digeam.com/index/" target="_blank" class="scale95">
+                        <div class="home marg0 imgs"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="page01tibox">
+                    <div class="page01-bti imgs marg0"></div>
+                    <div class="page01-sti imgs marg0"></div>
+                    <div class="page01btnbox">
+                        <a href="https://nage.digeam.com/event/prereg/" target="_blank" class="book imgs scale95"></a>
+                        <a href="https://nage.digeam.com/download/" target="_blank" class="download imgs scale95"></a>
+                        <a href="https://www.digeam.com/register" target="_blank" class="register imgs scale95"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+            </div>
+        </div>
+
+        <!-- ----------page02----------- -->
+        <div class="page02 imgb">
+            <div class="container">
+                
+                <nav>
+                    <a href="#" class="logo scale95 imgs"></a>
+                    <div class="loginbox">
+                        <p>11111111111111111</p>
+                        <a href="#" target="_blank" class="loginbtn scale95"><h2>登入</h2></a>
+                    </div>
+                </nav>
+
+                <!-- PC-TAB -->
+                <div class="tabarea">
+                    <div class="tabtopimg imgs"></div>
+                    <div id="tab-box">
+                        <ul class="tab-title">
+                            <li>
+                                <a href="#tab01">
+                                    <div><h2>聯盟召集令</h2></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab02">
+                                    <div><h2>飆等挑戰賽</h2></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab03">
+                                    <div><h2>角色成長禮</h2></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab04">
+                                    <div><h2>異常糾察隊</h2></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab05">
+                                    <div><h2>GM的祝福</h2></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab06">
+                                    <div><h2>烯娜征服者</h2></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab07">
+                                    <div><h2>儲值享福利</h2></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab08">
+                                    <div><h2>消費回饋樂</h2></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab09">
+                                    <div><h2>萬聖節的請託</h2></div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="iconbox">
+                            <a href="https://forum.gamer.com.tw/A.php?bsn=6358" target="_blank" class="scale95">
+                                <div class="baha marg0 imgs "></div>
+                            </a>
+                            <a href="https://www.facebook.com/DiGeamNage" target="_blank" class="scale95">
+                                <div class="fb marg0 imgs"></div>
+                            </a>
+                            <a href="https://nage.digeam.com/index/" target="_blank" class="scale95">
+                                <div class="home marg0 imgs"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tabeventbox">
+                        <!-- 聯盟召集令 pre_01-->
+                        <div id="tab01" class="tab-inner"> 
+                            <div class="innerinfo marg0">
+                                <div class="tab-ti tab-ti01 imgs"></div>
+                                <div class="infobox"><h4>活動期間於遊戲內創建或加入聯盟，聯盟成員達到30人(含)以上，即可獲得獎勵。</h4></div>
+                                <div class="infoti ti-line marg0 imgs">
+                                    <h2>活動時間</h2>
+                                </div>
+                                <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                                <div class="imgbox">
+                                    <picture>
+                                        <source srcset="imgp/tab-award01.webp" type="image/webp">
+                                        <img src="img/tab-award01.png">
+                                    </picture>
+                                </div>
+                                <div class="tablebox">
+                                    <table>
+                                        <thead >
+                                            <th colspan="3" class="table_title"><div class="infoti">獎勵說明</div>
+                                            </th>
+                                        </thead>
+                                        <tr>
+                                            <th class="table_props">道具名稱</th>
+                                            <th class="table_number">數量</th>
+                                            <th>道具說明</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/01.webp" type="image/webp">
+                                                        <img src="img/icon/01.png">
+                                                    </picture>
+                                                    <p>水叮噹</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">寵物<br><span>※365日/不可交易</span>​</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/02.webp" type="image/webp">
+                                                        <img src="img/icon/02.png">
+                                                    </picture>
+                                                    <p>暱稱卡</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">使用後角色頭頂部將顯示自行設定的暱稱<br><span>※30日/不可交易<br>※使用後無期限</span></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <a href="###" class="popbox Popupbtn" data-activity="pre_01">注意事項</a>
+                            </div>
+                        </div>
+
+                        <!-- 飆等挑戰賽 pre_02 -->
+                        <div id="tab02" class="tab-inner">
+                            <div class="innerinfo marg0">
+                                <div class="tab-ti tab-ti02 imgs"></div>
+                                <div class="infobox"><h4>於活動期間內，達成指定等級(Lv70)，即可獲得獎勵。</h4></div>
+                                <div class="infoti ti-line marg0 imgs">
+                                    <h2>活動時間</h2>
+                                </div>
+                                <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                                <div class="imgbox">
+                                    <picture>
+                                        <source srcset="imgp/tab-award02.webp" type="image/webp">
+                                        <img src="img/tab-award02.png">
+                                    </picture>
+                                </div>
+                                <div class="tablebox">
+                                    <table>
+                                        <thead >
+                                            <th colspan="3" class="table_title"><div class="infoti">獎勵說明</div>
+                                            </th>
+                                        </thead>
+                                        <tr>
+                                            <th class="table_props_pre02">道具名稱</th>
+                                            <th class="table_number">數量</th>
+                                            <th>道具說明</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/03.webp" type="image/webp">
+                                                        <img src="img/icon/03.png">
+                                                    </picture>
+                                                    <p>暗夜殺手裝(3D)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">力量+47 敏捷+43 靈力+47 意念+43AP+180 DP+130 HP+280 SP+400 Speed+25 攻速+5%<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為3日</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/04.webp" type="image/webp">
+                                                        <img src="img/icon/04.png">
+                                                    </picture>
+                                                    <p>50%buff等級經驗券(1H)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">使用後1小時內戰鬥經驗值增加為1.5倍<span><br>※30日/不可交易<br>※右擊服用後，使用期限為1小時</span>​</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/04.webp" type="image/webp">
+                                                        <img src="img/icon/04.png">
+                                                    </picture>
+                                                    <p>50%buff技能經驗券(1H)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">使用後1小時內技能經驗值增加為1.5倍<span><br>※30日/不可交易<br>※右擊服用後，使用期限為1小時</span>​</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <a href="###" class="popbox Popupbtn" data-activity="pre_02">注意事項</a>
+                            </div>
+                        </div>
+
+                        <!-- 角色成長禮 pre_03 -->
+                        <div id="tab03" class="tab-inner">
+                            <div class="innerinfo marg0">
+                                <div class="tab-ti tab-ti03 imgs"></div>
+                                <div class="infobox"><h4>於活動期間內，達成指定等級即可獲得獎勵。</h4></div>
+                                <div class="infoti ti-line marg0 imgs">
+                                    <h2>活動時間</h2>
+                                </div>
+                                <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                                <div class="imgbox">
+                                    <picture>
+                                        <source srcset="imgp/tab-award05.webp" type="image/webp">
+                                        <img src="img/tab-award05.png">
+                                    </picture>
+                                </div>
+                                <div class="tablebox">
+                                    <table>
+                                        <thead >
+                                            <th colspan="4" class="table_title"><div class="infoti">獎勵說明</div>
+                                            </th>
+                                        </thead>
+                                        <tr>
+                                            <th>指定等級</th>
+                                            <th class="table_props_pre03">道具名稱</th>
+                                            <th class="table_number">數量</th>
+                                            <th>道具說明</th>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/05.webp" type="image/webp">
+                                                        <img src="img/icon/05.png">
+                                                    </picture>
+                                                    <p>20%buff等級經驗券(1H)</p>
+                                                </div>
+                                            </td>
+                                            <td>3</td>
+                                            <td class="tablel">使用後1小時內戰鬥經驗值增加為1.2倍<br><span>※7日/不可交易<br>※右擊服用後，使用期限為1小時</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>20</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/06.webp" type="image/webp">
+                                                        <img src="img/icon/06.png">
+                                                    </picture>
+                                                    <p>[造型]南瓜面具(女) / (男)</p>
+                                                </div>
+                                            </td>
+                                            <td>2選1</td>
+                                            <td class="tablel">替換裝備於臉部的道具造型<br><span>※30日/不可交易<br>※套用後無使用期限</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>30</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/07.webp" type="image/webp">
+                                                        <img src="img/icon/07.png">
+                                                    </picture>
+                                                    <p>滑板</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">單人交通工具，移動速度4.8<br><span>※365日/不可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">40</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/08.webp" type="image/webp">
+                                                        <img src="img/icon/08.png">
+                                                    </picture>
+                                                    <p>維兒剛(1H)</p>
+                                                </div>
+                                            </td>
+                                            <td>2</td>
+                                            <td class="tablel">使用後命中率上升<br><span>※7日/不可交易<br>※右擊服用後，使用期限為1小時</span></td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/09.webp" type="image/webp">
+                                                        <img src="img/icon/09.png">
+                                                    </picture>
+                                                    <p>維兒柔(1H)</p>
+                                                </div>
+                                            </td>
+                                            <td>2</td>
+                                            <td class="tablel">使用後迴避率上升<br><span>※7日/不可交易<br>※右擊服用後，使用期限為1小時</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">50</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/05.webp" type="image/webp">
+                                                        <img src="img/icon/05.png">
+                                                    </picture>
+                                                    <p>20%buff技能經驗券(5H)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">使用後5小時內技能經驗值增加為1.2倍<br><span>※7日/不可交易<br>※右擊服用後，使用期限為5小時</span></td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/05.webp" type="image/webp">
+                                                        <img src="img/icon/05.png">
+                                                    </picture>
+                                                    <p>20%buff格擋經驗券(5H)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">使用後5小時內格檔經驗值增加為1.2倍<br><span>※7日/不可交易<br>※右擊服用後，使用期限為5小時</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>60</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/10.webp" type="image/webp">
+                                                        <img src="img/icon/10.png">
+                                                    </picture>
+                                                    <p>小惡魔(攻防)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">寵物AP+40 DP+30<br><span>※7日/不可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>70</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/11.webp" type="image/webp">
+                                                        <img src="img/icon/11.png">
+                                                    </picture>
+                                                    <p>真實之眼一代</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">升級1~3級用強化石，機率提升60%<br><span>※可交易</span></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <a href="###" class="popbox Popupbtn" data-activity="pre_03">注意事項</a>
+                            </div>
+                        </div>
+
+                        <!-- 異常糾察隊 pre_04 -->
+                        <div id="tab04" class="tab-inner">
+                            <div class="innerinfo marg0">
+                                <div class="tab-ti tab-ti04 imgs"></div>
+                                <div class="infobox"><h4>於活動期間內，提交版本中文字錯誤、系統異常之項目，即可於活動結束後獲得獎勵。</h4></div>
+                                <div class="infoti ti-line marg0 imgs">
+                                    <h2>活動時間</h2>
+                                </div>
+                                <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                                <div class="inputbox">
+                                    <form>
+                                        <select id="inputbox" name="inputbox">
+                                        <option value selected>請選擇問題</option>
+                                        <option value="1">BUG回報</option>
+                                        <option value="2">系統及機制異常</option>
+                                        <option value="3">描述錯誤/錯字/亂碼</option>
+                                        <option value="4">其它</option>
+                                        </select>
+                                    </form>
+                                    <div class="input-fontbox">
+                                        <h4>問題描述(限制100字內)</h4>
+                                        <textarea class="input-font" id="question" maxlength="100"></textarea>
+                                    </div>
+                                    <div class="upload">
+                                        <div class="uploadbox">
+                                            <h4>上傳圖片(2MB以下)​</h4>
+                                            <input class="btn_file" id="bug_pic" type="file" name="btnPic" accept="image/png, image/jpeg" multiple="multiple">
+                                            <input type="hidden" name="bug_pic_name" id="bug_pic_name">
+                                        </div>
+                                        <a herf="##" target="_blank" class="uploadbox-btn scale95"><h4>問題回報</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="imgbox">
+                                    <picture>
+                                        <source srcset="imgp/tab-award04.webp" type="image/webp">
+                                        <img src="img/tab-award04.png">
+                                    </picture>
+                                </div>
+                                <div class="tablebox">
+                                    <table>
+                                        <thead >
+                                            <th colspan="4" class="table_title">
+                                                <div class="infoti">獎勵說明<br>錯字及錯誤說明獎勵/累計計算</div>
+                                            </th>
+                                        </thead>
+                                        <tr>
+                                            <th class="table_number_pre04">累積回報字數</th>
+                                            <th class="table_props_pre04">錯字回報獎勵</th>
+                                            <th class="table_number">數量</th>
+                                            <th>道具說明</th>
+                                        </tr>
+                                        <tr>
+                                            <td>第一名</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/03.webp" type="image/webp">
+                                                        <img src="img/icon/03.png">
+                                                    </picture>
+                                                    <p>福氣狗套裝(30D)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">力量+41 敏捷+49 靈力+41 意念+49DP+310 HP+550 SP+150 Speed+26 攻速+8%<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為30日</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>第二名</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/03.webp" type="image/webp">
+                                                        <img src="img/icon/03.png">
+                                                    </picture>
+                                                    <p>福氣狗套裝(3D)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">力量+41 敏捷+49 靈力+41 意念+49DP+310 HP+550 SP+150 Speed+26 攻速+8%<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為3日</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>第二名</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/03.webp" type="image/webp">
+                                                        <img src="img/icon/03.png">
+                                                    </picture>
+                                                    <p>福氣狗套裝(1D)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">力量+41 敏捷+49 靈力+41 意念+49DP+310 HP+550 SP+150 Speed+26 攻速+8%<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為1日</span></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="tablebox">
+                                    <table>
+                                        <thead >
+                                            <th colspan="3" class="table_title">
+                                                <div class="infoti">Bug回報獎勵 / 每一筆<br></div>
+                                            </th>
+                                        </thead>
+                                        <tr>
+                                            <th>系統BUG回報獎勵</th>
+                                            <th>每筆獲得獎勵</th>
+                                            <th>說明</th>
+                                        </tr>
+                                        <tr>
+                                            <td>大型BUG</td>
+                                            <td>1000點數</td>
+                                            <td>可於遊戲內商城購買道具</td>
+                                        </tr>
+                                        <tr>
+                                            <td>中型BUG</td>
+                                            <td>500點數</td>
+                                            <td>可於遊戲內商城購買道具</td>
+                                        </tr>
+                                        <tr>
+                                            <td>輕型BUG</td>
+                                            <td>150點數</td>
+                                            <td>可於遊戲內商城購買道具</td>
+                                        </tr>
+                                    </table>
+                                    <h2 class="margt24" style="color:#fff;">※回報之內容須經由營運團隊確認為Bug之範疇，始符合獎勵核發對象。</h2>
+                                </div>
+                                <a href="###" class="popbox Popupbtn" data-activity="pre_04">注意事項</a>
+                            </div>
+                        </div>
+
+                        <!-- GM的祝福(加倍樂+擺攤樂) pre_05-->
+                        <div id="tab05" class="tab-inner">
+                            <div class="innerinfo marg0">
+                                <div class="tab-ti tab-ti05 imgs"></div>
+                                <!-- 加倍樂 -->
+                                <img src="img/tab-ti05-1.png">
+                                <div class="infobox"><h4>於活動期間內，每週六、日18:00 ~ 22:00經驗值50%加倍。</h4></div>
+                                <div class="infoti ti-line marg0 imgs">
+                                    <h2>活動時間</h2>
+                                </div>
+                                <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                                <div class="infoti ti-line marg0 imgs">
+                                    <h2>加倍時段</h2>
+                                </div>
+                                <div class="infobox"><h4>週六、週日　18:00 ~ 22:00</h4></div>
+                                <br>
+                                <!-- 擺攤樂 -->
+                                <img src="img/tab-ti05-2.png">
+                                <div class="infobox"><h4>你絕對不能錯過撿便宜的機會！ 散財GM出現啦！<br>
+                                    活動時間GM將於隨機地點擺攤，並隨機換位置和補貨，優先看到GM的玩家即可購買，先找到先買喔！</h4></div>
+                                <div class="infoti ti-line marg0 imgs">
+                                    <h2>活動時間</h2>
+                                </div>
+                                <div class="infobox"><h4>2022/10/28　19:00 ~ 20:00<br>
+                                    2022/11/04　19:00 ~ 20:00</h4></div>
+                                <a href="###" class="popbox Popupbtn" data-activity="pre_05">注意事項</a>
+                            </div>
+                        </div>
+
+                        <!-- 烯娜征服者 pre_06-->
+                        <div id="tab06" class="tab-inner">
+                            <div class="innerinfo marg0">
+                                <div class="tab-ti tab-ti06 imgs"></div>
+                                <div class="infobox"><h4>活動期間，只要尾刀擊殺烯娜都可以獲得獎勵。</h4></div>
+                                <div class="infoti ti-line marg0 imgs">
+                                    <h2>活動時間</h2>
+                                </div>
+                                <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                                <div class="imgbox">
+                                    <picture>
+                                        <source srcset="imgp/tab-award07.webp" type="image/webp">
+                                        <img src="img/tab-award07.png">
+                                    </picture>
+                                </div>
+                                <div class="tablebox">
+                                    <table>
+                                        <thead>
+                                            <th colspan="3" class="table_title"><div class="infoti">獎勵說明</div>
+                                            </th>
+                                        </thead>
+                                        <tr>
+                                            <th class="table_props_pre06">道具名稱</th>
+                                            <th class="table_number">數量</th>
+                                            <th>道具說明</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/12.webp" type="image/webp">
+                                                        <img src="img/icon/12.png">
+                                                    </picture>
+                                                    <p>歡樂驚喜箱子</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">內含大頭巧克力棒x1、小丑套裝(3D)x1、超能藥劑x20<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為365日</span>​</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <a href="###" class="popbox Popupbtn" data-activity="pre_06">注意事項</a>
+                            </div>
+                        </div>
+
+                        <!-- 儲值享福利 pre_07-->
+                        <div id="tab07" class="tab-inner">
+                            <div class="innerinfo marg0">
+                                <div class="tab-ti tab-ti07 imgs"></div>
+                                <div class="infobox"><h4>於活動期間內，儲值點數逹3,000(含)以上，即可獲得「全套校服(男女任選)」。</h4></div>
+                                <div class="infoti ti-line marg0 imgs">
+                                    <h2>活動時間</h2>
+                                </div>
+                                <div class="infobox"><h4>2022/10/27 ~ 2022/11/17</h4></div>
+                                <div class="imgbox">
+                                    <picture>
+                                        <source srcset="imgp/tab-award03.webp" type="image/webp">
+                                        <img src="img/tab-award03.png">
+                                    </picture>
+                                </div>
+                                <div class="tablebox">
+                                    <table>
+                                        <thead >
+                                            <th colspan="3" class="table_title"><div class="infoti">獎勵說明</div>
+                                            </th>
+                                        </thead>
+                                        <tr>
+                                            <th class="table_props_pre07">道具名稱</th>
+                                            <th class="table_number">數量</th>
+                                            <th>道具說明</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/13.webp" type="image/webp">
+                                                        <img src="img/icon/13.png">
+                                                    </picture>
+                                                    <p>校服帽</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">時裝<br><span>※可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/14.webp" type="image/webp">
+                                                        <img src="img/icon/14.png">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="imgp/icon/15.webp" type="image/webp">
+                                                        <img src="img/icon/15.png">
+                                                    </picture>
+                                                    <p>校服上衣(男)/(女)</p>
+                                                </div>
+                                            </td>
+                                            <td>2選1</td>
+                                            <td class="tablel">時裝<br><span>※可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/16.webp" type="image/webp">
+                                                        <img src="img/icon/16.png">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="imgp/icon/17.webp" type="image/webp">
+                                                        <img src="img/icon/17.png">
+                                                    </picture>
+                                                    <p>校服褲子(男)/(女)</p>
+                                                </div>
+                                            </td>
+                                            <td>2選1</td>
+                                            <td class="tablel">時裝<br><span>※可交易</span></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <a href="###" class="popbox Popupbtn" data-activity="pre_07">注意事項</a>
+                            </div>
+                        </div>
+
+                        <!-- 消費回饋樂 pre_08-->
+                        <div id="tab08" class="tab-inner">
+                            <div class="innerinfo marg0">
+                                <div class="tab-ti tab-ti08 imgs"></div>
+                                <div class="infobox"><h4>活動期間內，只要前往遊戲商城使用「點數」購買消費，<br>達到指定門檻(500、1000、3000、5000、10000、15000、20000點數)即可領取對應獎勵。</h4></div>
+                                <div class="infoti ti-line marg0 imgs">
+                                    <h2>活動時間</h2>
+                                </div>
+                                <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                                <div class="imgbox">
+                                    <picture>
+                                        <source srcset="imgp/tab-award06.webp" type="image/webp">
+                                        <img src="img/tab-award06.png">
+                                    </picture>
+                                </div>
+                                <div class="tablebox">
+                                    <table>
+                                        <thead >
+                                            <th colspan="4" class="table_title"><div class="infoti">獎勵說明</div>
+                                            </th>
+                                        </thead>
+                                        <tr>
+                                            <th class="table_props">消費滿額</th>
+                                            <th class="table_props_pre09">活動獎勵</th>
+                                            <th class="table_number">數量</th>
+                                            <th>道具說明</th>
+                                        </tr>
+                                        <tr>
+                                            <td>滿500</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/18.webp" type="image/webp">
+                                                        <img src="img/icon/18.png">
+                                                    </picture>
+                                                    <p>2倍等級經驗券(1H)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">使用後1小時內戰鬥經驗值增加2倍<br><span>※可交易</span></td>
+                                        <tr>
+                                        <tr>
+                                            <td>滿1000</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/11.webp" type="image/webp">
+                                                        <img src="img/icon/11.png">
+                                                    </picture>
+                                                    <p>真實之眼一代</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">升級1~3級用強化石，機率提升60%<br><span>※可交易</span></td>
+                                        <tr>
+                                        <tr>
+                                            <td>滿3000</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/19.webp" type="image/webp">
+                                                        <img src="img/icon/19.png">
+                                                    </picture>
+                                                    <p>4倍聲望經驗券(5D)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">使用後5日內聲望經驗值增加4倍<br><span>※可交易</span></td>
+                                        <tr>
+                                        <tr>
+                                            <td rowspan="2">滿5000</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/20.webp" type="image/webp">
+                                                        <img src="img/icon/20.png">
+                                                    </picture>
+                                                    <p>黃金寶石一代</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">升級4~6級用強化石機率提升5%<br><span>※可交易</span></td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/21.webp" type="image/webp">
+                                                        <img src="img/icon/21.png">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="imgp/icon/22.webp" type="image/webp">
+                                                        <img src="img/icon/22.png">
+                                                    </picture>
+                                                    <p>藍色吉他/粉紅吉他</p>
+                                                </div>
+                                            </td>
+                                            <td>2選1</td>
+                                            <td class="tablel">玩具<br><span>※可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>滿10000</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/23.webp" type="image/webp">
+                                                        <img src="img/icon/23.png">
+                                                    </picture>
+                                                    <p>菲尼寶寶</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">寵物<br>力量+10 敏捷+10 靈力+10 意念+10<br><span>※30日/不可交易</span></td>
+                                        <tr>
+                                        <tr>
+                                            <td>滿15000</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/03.webp" type="image/webp">
+                                                        <img src="img/icon/03.png">
+                                                    </picture>
+                                                    <p>鬼武者套裝(30D)</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">力量+45 敏捷+45 靈力+45 意念+45
+                                                AP+50 DP+280 HP+500 SP+500 Speed+25 攻速+25% 命中+7 格檔+7<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為30日</span>
+                                            </td>
+                                        <tr>
+                                        <tr>
+                                            <td>滿20000</td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/24.webp" type="image/webp">
+                                                        <img src="img/icon/24.png">
+                                                    </picture>
+                                                    <p>哈雷機車鑰匙</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">裝備在特殊欄可召喚機車，雙人/速度6.5<br><span>※可交易</span>
+                                            </td>
+                                        <tr>
+                                    </table>
+                                </div>
+                                <a href="###" class="popbox Popupbtn" data-activity="pre_08">注意事項</a>
+                            </div>
+                        </div>
+
+                        <!-- 萬聖節的請託 pre_09 -->
+                        <div id="tab09" class="pre_09">
+                            <div class="innerinfo marg0">
+                                <div class="tab-ti tab-ti09 imgs"></div>
+                                <div class="infobox"><h4>萬聖節來臨，怪物將市民們的東西搶走啦！<br>
+                                    活動期間內，前往波本市尋找活動NPC［羅伯特］進行對話，即可接取活動任務。<br>
+                                    消滅與同玩家等級以上或不低於9級的目標，有機率掉落【萬聖節寶箱】。</h4></div>
+                                <div class="infoti ti-line marg0 imgs">
+                                    <h2>活動時間</h2>
+                                </div>
+                                <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                                <div class="infoti ti-line marg0 imgs"><h2>參與條件</h2></div>
+                                <div class="infobox"><h4>Lv30以上</h4></div>
+                                <div class="imgbox">
+                                    <picture>
+                                        <source srcset="imgp/tab-award08.webp" type="image/webp">
+                                        <img src="img/tab-award08.png">
+                                    </picture>
+                                    <picture>
+                                        <source srcset="imgp/tab-award09.webp" type="image/webp">
+                                        <img src="img/tab-award09.png">
+                                    </picture>
+                                </div>
+                                <div class="tablebox">
+                                    <table>
+                                        <thead>
+                                            <th colspan="4" class="table_title"><div class="infoti">獎勵說明</div>
+                                            </th>
+                                        </thead>
+                                        <tr>
+                                            <th class="table_props">道具名稱</th>
+                                            <th class="table_props_pre09">內容物</th>
+                                            <th class="table_number">數量</th>
+                                            <th>道具說明</th>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="11">
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/0.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/0.png">
+                                                    </picture>
+                                                    <p>萬聖節寶箱</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/1.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/1.png">
+                                                    </picture>
+                                                    <p>紅色南瓜</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">HP+500<br><span>※可交易</span></td>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/2.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/2.png">
+                                                    </picture>
+                                                    <p>藍色南瓜</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">SP+500<br><span>※可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/3.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/3.png">
+                                                    </picture>
+                                                    <p>布</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">波本市【服裝店2】老闆娘可能會有興趣<br><span>※15日/任務道具</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/4.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/4.png">
+                                                    </picture>
+                                                    <p>梳子</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">樂透市【銀行】職員的物品<br><span>※15日/任務道具</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/5.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/5.png">
+                                                    </picture>
+                                                    <p>喜鵲羽毛</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">自由之都【車站】站務員的物品<br><span>※15日/任務道具</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/6.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/6.png">
+                                                    </picture>
+                                                    <p>小旋風鑰匙</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">速度6.0<br><span>※15日/不可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/7.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/7.png">
+                                                    </picture>
+                                                    <p>萬聖節魔法</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">大頭效果<br><span>※可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/8.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/8.png">
+                                                    </picture>
+                                                    <p>奈米寶石A</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">升級+1~+3道具時使用的強化石<br><span>※可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/9.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/9.png">
+                                                    </picture>
+                                                    <p>大嘴小丑面具</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">DP+10<br><span>※15日/不可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/10.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/10.png">
+                                                    </picture>
+                                                    <p>顝顱怪人面具</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">AP+10 DP+4 力量+7 敏捷+7 貿易+3 移動速度+5<br><span>※15日/不可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/11.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/11.png">
+                                                    </picture>
+                                                    <p>蚩尤天王面具</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">AP+10 DP+4 靈力+7 意念+7 貿易+3 移動速度+5<br><span>※15日/不可交易</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="propsbox">
+                                                    <picture>
+                                                        <source srcset="imgp/icon/halloween/12.webp" type="image/webp">
+                                                        <img src="img/icon/halloween/12.png">
+                                                    </picture>
+                                                    <p>萬聖節死神</p>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="tablel">移動速度+10<br><span>※可交易/不可維修</span></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="infoti ti-line marg0 imgs margt24"><h2>萬聖節限定面具</h2></div>
+                                <div class="infobox"><h4>開啟【萬聖節寶箱】後隨機獲得【布】、【梳子】、【喜鵲羽毛】，<br>可分別去【波本市】、【自由之都】、【樂透市】與NPC兌換<br>【死神的碎片(頭部)】【死神的碎片(上半身)】【死神的碎片(下半身)】<br>最終，用3個死神碎片兌換寵物【死神】。</h4></div>
+                                <div class="tablebox">
+                                    <table>
+                                        <thead>
+                                            <th colspan="3" class="table_title"><div class="infoti">道具說明</div>
+                                            </th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>道具名稱</th>
+                                                <th>兌換地點</th>
+                                                <th>兌換道具</th>
+                                            </tr>
+                                            <tr>
+                                                <td>布</td>
+                                                <td>波本</td>
+                                                <td>死神的碎片(頭部)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>梳子</td>
+                                                <td>自由之都</td>
+                                                <td>死神的碎片(上半身)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>喜鵲羽毛</td>
+                                                <td>樂透市</td>
+                                                <td>死神的碎片(下半身)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <a href="###" class="popbox Popupbtn" data-activity="pre_09">注意事項</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RWD-slick -->
+                <div class="rwdtabarea one-time tabeventbox">
+                    <!-- 聯盟召集令 pre_01-->
+                    <div id="tab01" class="tab-inner"> 
+                        <div class="innerinfo marg0">
+                            <div class="tab-ti tab-ti01 imgs"></div>
+                            <div class="infobox"><h4>活動期間於遊戲內創建或加入聯盟，聯盟成員達到30人(含)以上，即可獲得獎勵。</h4></div>
+                            <div class="infoti ti-line marg0 imgs">
+                                <h2>活動時間</h2>
+                            </div>
+                            <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                            <div class="imgbox">
+                                <picture>
+                                    <source srcset="imgp/tab-award01.webp" type="image/webp">
+                                    <img src="img/tab-award01.png">
+                                </picture>
+                            </div>
+                            <div class="tablebox">
+                                <table>
+                                    <thead >
+                                        <th colspan="3" class="table_title"><div class="infoti">獎勵說明</div>
+                                        </th>
+                                    </thead>
+                                    <tr>
+                                        <th class="table_props">道具名稱</th>
+                                        <th class="table_number">數量</th>
+                                        <th>道具說明</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/01.webp" type="image/webp">
+                                                    <img src="img/icon/01.png">
+                                                </picture>
+                                                <p>水叮噹</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">寵物<br><span>※365日/不可交易</span>​</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/02.webp" type="image/webp">
+                                                    <img src="img/icon/02.png">
+                                                </picture>
+                                                <p>暱稱卡</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">使用後角色頭頂部將顯示自行設定的暱稱<br><span>※30日/不可交易<br>※使用後無期限</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <a href="###" class="popbox Popupbtn" data-activity="pre_01">注意事項</a>
+                        </div>
+                    </div>
+
+                    <!-- 飆等挑戰賽 pre_02 -->
+                    <div id="tab02" class="tab-inner">
+                        <div class="innerinfo marg0">
+                            <div class="tab-ti tab-ti02 imgs"></div>
+                            <div class="infobox"><h4>於活動期間內，達成指定等級(Lv70)，即可獲得獎勵。</h4></div>
+                            <div class="infoti ti-line marg0 imgs">
+                                <h2>活動時間</h2>
+                            </div>
+                            <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                            <div class="imgbox">
+                                <picture>
+                                    <source srcset="imgp/tab-award02.webp" type="image/webp">
+                                    <img src="img/tab-award02.png">
+                                </picture>
+                            </div>
+                            <div class="tablebox">
+                                <table>
+                                    <thead >
+                                        <th colspan="3" class="table_title"><div class="infoti">獎勵說明</div>
+                                        </th>
+                                    </thead>
+                                    <tr>
+                                        <th class="table_props_pre02">道具名稱</th>
+                                        <th class="table_number">數量</th>
+                                        <th>道具說明</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/03.webp" type="image/webp">
+                                                    <img src="img/icon/03.png">
+                                                </picture>
+                                                <p>暗夜殺手裝(3D)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">力量+47 敏捷+43 靈力+47 意念+43AP+180 DP+130 HP+280 SP+400 Speed+25 攻速+5%<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為3日</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/04.webp" type="image/webp">
+                                                    <img src="img/icon/04.png">
+                                                </picture>
+                                                <p>50%buff等級經驗券(1H)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">使用後1小時內戰鬥經驗值增加為1.5倍<span><br>※30日/不可交易<br>※右擊服用後，使用期限為1小時</span>​</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/04.webp" type="image/webp">
+                                                    <img src="img/icon/04.png">
+                                                </picture>
+                                                <p>50%buff技能經驗券(1H)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">使用後1小時內技能經驗值增加為1.5倍<span><br>※30日/不可交易<br>※右擊服用後，使用期限為1小時</span>​</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <a href="###" class="popbox Popupbtn" data-activity="pre_02">注意事項</a>
+                        </div>
+                    </div>
+
+                    <!-- 角色成長禮 pre_03 -->
+                    <div id="tab03" class="tab-inner">
+                        <div class="innerinfo marg0">
+                            <div class="tab-ti tab-ti03 imgs"></div>
+                            <div class="infobox"><h4>於活動期間內，達成指定等級即可獲得獎勵。</h4></div>
+                            <div class="infoti ti-line marg0 imgs">
+                                <h2>活動時間</h2>
+                            </div>
+                            <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                            <div class="imgbox">
+                                <picture>
+                                    <source srcset="imgp/tab-award05.webp" type="image/webp">
+                                    <img src="img/tab-award05.png">
+                                </picture>
+                            </div>
+                            <div class="tablebox">
+                                <table>
+                                    <thead >
+                                        <th colspan="4" class="table_title"><div class="infoti">獎勵說明</div>
+                                        </th>
+                                    </thead>
+                                    <tr>
+                                        <th class="table_lv">指定等級</th>
+                                        <th class="table_props_pre03">道具名稱</th>
+                                        <th class="table_number">數量</th>
+                                        <th>道具說明</th>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/05.webp" type="image/webp">
+                                                    <img src="img/icon/05.png">
+                                                </picture>
+                                                <p>20%buff等級經驗券(1H)</p>
+                                            </div>
+                                        </td>
+                                        <td>3</td>
+                                        <td class="tablel">使用後1小時內戰鬥經驗值增加為1.2倍<br><span>※7日/不可交易<br>※右擊服用後，使用期限為1小時</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/06.webp" type="image/webp">
+                                                    <img src="img/icon/06.png">
+                                                </picture>
+                                                <p>[造型]南瓜面具(女) / (男)</p>
+                                            </div>
+                                        </td>
+                                        <td>2選1</td>
+                                        <td class="tablel">替換裝備於臉部的道具造型<br><span>※30日/不可交易<br>※套用後無使用期限</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>30</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/07.webp" type="image/webp">
+                                                    <img src="img/icon/07.png">
+                                                </picture>
+                                                <p>滑板</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">單人交通工具，移動速度4.8<br><span>※365日/不可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">40</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/08.webp" type="image/webp">
+                                                    <img src="img/icon/08.png">
+                                                </picture>
+                                                <p>維兒剛(1H)</p>
+                                            </div>
+                                        </td>
+                                        <td>2</td>
+                                        <td class="tablel">使用後命中率上升<br><span>※7日/不可交易<br>※右擊服用後，使用期限為1小時</span></td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/09.webp" type="image/webp">
+                                                    <img src="img/icon/09.png">
+                                                </picture>
+                                                <p>維兒柔(1H)</p>
+                                            </div>
+                                        </td>
+                                        <td>2</td>
+                                        <td class="tablel">使用後迴避率上升<br><span>※7日/不可交易<br>※右擊服用後，使用期限為1小時</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">50</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/05.webp" type="image/webp">
+                                                    <img src="img/icon/05.png">
+                                                </picture>
+                                                <p>20%buff技能經驗券(5H)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">使用後5小時內技能經驗值增加為1.2倍<br><span>※7日/不可交易<br>※右擊服用後，使用期限為5小時</span></td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/05.webp" type="image/webp">
+                                                    <img src="img/icon/05.png">
+                                                </picture>
+                                                <p>20%buff格擋經驗券(5H)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">使用後5小時內格檔經驗值增加為1.2倍<br><span>※7日/不可交易<br>※右擊服用後，使用期限為5小時</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>60</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/10.webp" type="image/webp">
+                                                    <img src="img/icon/10.png">
+                                                </picture>
+                                                <p>小惡魔(攻防)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">寵物AP+40 DP+30<br><span>※7日/不可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>70</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/11.webp" type="image/webp">
+                                                    <img src="img/icon/11.png">
+                                                </picture>
+                                                <p>真實之眼一代</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">升級1~3級用強化石，機率提升60%<br><span>※可交易</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <a href="###" class="popbox Popupbtn" data-activity="pre_03">注意事項</a>
+                        </div>
+                    </div>
+
+                    <!-- 異常糾察隊 pre_04 -->
+                    <div id="tab04" class="tab-inner">
+                        <div class="innerinfo marg0">
+                            <div class="tab-ti tab-ti04 imgs"></div>
+                            <div class="infobox"><h4>於活動期間內，提交版本中文字錯誤、系統異常之項目，即可於活動結束後獲得獎勵。</h4></div>
+                            <div class="infoti ti-line marg0 imgs">
+                                <h2>活動時間</h2>
+                            </div>
+                            <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                            <div class="inputbox">
+                                <form>
+                                    <select id="inputbox" name="inputbox">
+                                    <option value selected>請選擇問題</option>
+                                    <option value="1">BUG回報</option>
+                                    <option value="2">系統及機制異常</option>
+                                    <option value="3">描述錯誤/錯字/亂碼</option>
+                                    <option value="4">其它</option>
+                                    </select>
+                                </form>
+                                <div class="input-fontbox">
+                                    <h4>問題描述(限制100字內)</h4>
+                                    <textarea class="input-font" id="question" maxlength="100"></textarea>
+                                </div>
+                                <div class="upload">
+                                    <div class="uploadbox">
+                                        <h4>上傳圖片(2MB以下)​</h4>
+                                        <input class="btn_file" id="bug_pic" type="file" name="btnPic" accept="image/png, image/jpeg" multiple="multiple">
+                                        <input type="hidden" name="bug_pic_name" id="bug_pic_name">
+                                    </div>
+                                    <a herf="##" target="_blank" class="uploadbox-btn scale95"><h4>問題回報</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="imgbox">
+                                <picture>
+                                    <source srcset="imgp/tab-award04.webp" type="image/webp">
+                                    <img src="img/tab-award04.png">
+                                </picture>
+                            </div>
+                            <div class="tablebox">
+                                <table>
+                                    <thead >
+                                        <th colspan="4" class="table_title">
+                                            <div class="infoti">獎勵說明<br>錯字及錯誤說明獎勵/累計計算</div>
+                                        </th>
+                                    </thead>
+                                    <tr>
+                                        <th class="table_number_pre04">累積回報字數</th>
+                                        <th class="table_props_pre04">錯字回報獎勵</th>
+                                        <th class="table_number">數量</th>
+                                        <th>道具說明</th>
+                                    </tr>
+                                    <tr>
+                                        <td>第一名</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/03.webp" type="image/webp">
+                                                    <img src="img/icon/03.png">
+                                                </picture>
+                                                <p>福氣狗套裝(30D)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">力量+41 敏捷+49 靈力+41 意念+49DP+310 HP+550 SP+150 Speed+26 攻速+8%<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為30日</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>第二名</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/03.webp" type="image/webp">
+                                                    <img src="img/icon/03.png">
+                                                </picture>
+                                                <p>福氣狗套裝(3D)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">力量+41 敏捷+49 靈力+41 意念+49DP+310 HP+550 SP+150 Speed+26 攻速+8%<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為3日</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>第二名</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/03.webp" type="image/webp">
+                                                    <img src="img/icon/03.png">
+                                                </picture>
+                                                <p>福氣狗套裝(1D)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">力量+41 敏捷+49 靈力+41 意念+49DP+310 HP+550 SP+150 Speed+26 攻速+8%<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為1日</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="tablebox">
+                                <table>
+                                    <thead >
+                                        <th colspan="3" class="table_title">
+                                            <div class="infoti">Bug回報獎勵 / 每一筆<br></div>
+                                        </th>
+                                    </thead>
+                                    <tr>
+                                        <th>系統BUG回報獎勵</th>
+                                        <th>每筆獲得獎勵</th>
+                                        <th>說明</th>
+                                    </tr>
+                                    <tr>
+                                        <td>大型BUG</td>
+                                        <td>1000點數</td>
+                                        <td>可於遊戲內商城購買道具</td>
+                                    </tr>
+                                    <tr>
+                                        <td>中型BUG</td>
+                                        <td>500點數</td>
+                                        <td>可於遊戲內商城購買道具</td>
+                                    </tr>
+                                    <tr>
+                                        <td>輕型BUG</td>
+                                        <td>150點數</td>
+                                        <td>可於遊戲內商城購買道具</td>
+                                    </tr>
+                                </table>
+                                <h2 class="margt24" style="color:#fff;">※回報之內容須經由營運團隊確認為Bug之範疇，始符合獎勵核發對象。</h2>
+                            </div>
+                            <a href="###" class="popbox Popupbtn" data-activity="pre_04">注意事項</a>
+                        </div>
+                    </div>
+
+                    <!-- GM的祝福(加倍樂+擺攤樂) pre_05-->
+                    <div id="tab05" class="tab-inner">
+                        <div class="innerinfo marg0">
+                            <div class="tab-ti tab-ti05 imgs"></div>
+                            <!-- 加倍樂 -->
+                            <div class="imgbox">
+                                <img src="img/tab-ti05-1.png">
+                            </div>
+                            <div class="infobox"><h4>於活動期間內，每週六、日18:00 ~ 22:00經驗值50%加倍。</h4></div>
+                            <div class="infoti ti-line marg0 imgs">
+                                <h2>活動時間</h2>
+                            </div>
+                            <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                            <div class="infoti ti-line marg0 imgs">
+                                <h2>加倍時段</h2>
+                            </div>
+                            <div class="infobox"><h4>週六、週日　18:00 ~ 22:00</h4></div>
+                            <br>
+                            <!-- 擺攤樂 -->
+                            <div class="imgbox">
+                                <img src="img/tab-ti05-2.png">
+                            </div>
+                            <div class="infobox"><h4>你絕對不能錯過撿便宜的機會！ 散財GM出現啦！<br>
+                                活動時間GM將於隨機地點擺攤，並隨機換位置和補貨，優先看到GM的玩家即可購買，先找到先買喔！</h4></div>
+                            <div class="infoti ti-line marg0 imgs">
+                                <h2>活動時間</h2>
+                            </div>
+                            <div class="infobox"><h4>2022/10/28　19:00 ~ 20:00<br>
+                                2022/11/04　19:00 ~ 20:00</h4></div>
+                            <a href="###" class="popbox Popupbtn" data-activity="pre_05">注意事項</a>
+                        </div>
+                    </div>
+
+                    <!-- 烯娜征服者 pre_06-->
+                    <div id="tab06" class="tab-inner">
+                        <div class="innerinfo marg0">
+                            <div class="tab-ti tab-ti06 imgs"></div>
+                            <div class="infobox"><h4>活動期間，只要尾刀擊殺烯娜都可以獲得獎勵。</h4></div>
+                            <div class="infoti ti-line marg0 imgs">
+                                <h2>活動時間</h2>
+                            </div>
+                            <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                            <div class="imgbox">
+                                <picture>
+                                    <source srcset="imgp/tab-award07.webp" type="image/webp">
+                                    <img src="img/tab-award07.png">
+                                </picture>
+                            </div>
+                            <div class="tablebox">
+                                <table>
+                                    <thead>
+                                        <th colspan="3" class="table_title"><div class="infoti">獎勵說明</div>
+                                        </th>
+                                    </thead>
+                                    <tr>
+                                        <th class="table_props_pre06">道具名稱</th>
+                                        <th class="table_number">數量</th>
+                                        <th>道具說明</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/12.webp" type="image/webp">
+                                                    <img src="img/icon/12.png">
+                                                </picture>
+                                                <p>歡樂驚喜箱子</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">內含大頭巧克力棒x1、小丑套裝(3D)x1、超能藥劑x20<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為365日</span>​</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <a href="###" class="popbox Popupbtn" data-activity="pre_06">注意事項</a>
+                        </div>
+                    </div>
+
+                    <!-- 儲值享福利 pre_07-->
+                    <div id="tab07" class="tab-inner">
+                        <div class="innerinfo marg0">
+                            <div class="tab-ti tab-ti07 imgs"></div>
+                            <div class="infobox"><h4>於活動期間內，儲值點數逹3,000(含)以上，即可獲得「全套校服(男女任選)」。</h4></div>
+                            <div class="infoti ti-line marg0 imgs">
+                                <h2>活動時間</h2>
+                            </div>
+                            <div class="infobox"><h4>2022/10/27 ~ 2022/11/17</h4></div>
+                            <div class="imgbox">
+                                <picture>
+                                    <source srcset="imgp/tab-award03.webp" type="image/webp">
+                                    <img src="img/tab-award03.png">
+                                </picture>
+                            </div>
+                            <div class="tablebox">
+                                <table>
+                                    <thead >
+                                        <th colspan="3" class="table_title"><div class="infoti">獎勵說明</div>
+                                        </th>
+                                    </thead>
+                                    <tr>
+                                        <th class="table_props_pre07">道具名稱</th>
+                                        <th class="table_number">數量</th>
+                                        <th>道具說明</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/13.webp" type="image/webp">
+                                                    <img src="img/icon/13.png">
+                                                </picture>
+                                                <p>校服帽</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">時裝<br><span>※可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/14.webp" type="image/webp">
+                                                    <img src="img/icon/14.png">
+                                                </picture>
+                                                <picture>
+                                                    <source srcset="imgp/icon/15.webp" type="image/webp">
+                                                    <img src="img/icon/15.png">
+                                                </picture>
+                                                <p>校服上衣(男)/(女)</p>
+                                            </div>
+                                        </td>
+                                        <td>2選1</td>
+                                        <td class="tablel">時裝<br><span>※可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/16.webp" type="image/webp">
+                                                    <img src="img/icon/16.png">
+                                                </picture>
+                                                <picture>
+                                                    <source srcset="imgp/icon/17.webp" type="image/webp">
+                                                    <img src="img/icon/17.png">
+                                                </picture>
+                                                <p>校服褲子(男)/(女)</p>
+                                            </div>
+                                        </td>
+                                        <td>2選1</td>
+                                        <td class="tablel">時裝<br><span>※可交易</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <a href="###" class="popbox Popupbtn" data-activity="pre_07">注意事項</a>
+                        </div>
+                    </div>
+
+                    <!-- 消費回饋樂 pre_08-->
+                    <div id="tab08" class="tab-inner">
+                        <div class="innerinfo marg0">
+                            <div class="tab-ti tab-ti08 imgs"></div>
+                            <div class="infobox"><h4>活動期間內，只要前往遊戲商城使用「點數」購買消費，<br>達到指定門檻(500、1000、3000、5000、10000、15000、20000點數)即可領取對應獎勵。</h4></div>
+                            <div class="infoti ti-line marg0 imgs">
+                                <h2>活動時間</h2>
+                            </div>
+                            <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                            <div class="imgbox">
+                                <picture>
+                                    <source srcset="imgp/tab-award06.webp" type="image/webp">
+                                    <img src="img/tab-award06.png">
+                                </picture>
+                            </div>
+                            <div class="tablebox">
+                                <table>
+                                    <thead >
+                                        <th colspan="4" class="table_title"><div class="infoti">獎勵說明</div>
+                                        </th>
+                                    </thead>
+                                    <tr>
+                                        <th class="table_props table_money_pre09">消費滿額</th>
+                                        <th class="table_props_pre09">活動獎勵</th>
+                                        <th class="table_number_pre09">數量</th>
+                                        <th>道具說明</th>
+                                    </tr>
+                                    <tr>
+                                        <td>滿500</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/18.webp" type="image/webp">
+                                                    <img src="img/icon/18.png">
+                                                </picture>
+                                                <p>2倍等級經驗券(1H)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">使用後1小時內戰鬥經驗值增加2倍<br><span>※可交易</span></td>
+                                    <tr>
+                                    <tr>
+                                        <td>滿1000</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/11.webp" type="image/webp">
+                                                    <img src="img/icon/11.png">
+                                                </picture>
+                                                <p>真實之眼一代</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">升級1~3級用強化石，機率提升60%<br><span>※可交易</span></td>
+                                    <tr>
+                                    <tr>
+                                        <td>滿3000</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/19.webp" type="image/webp">
+                                                    <img src="img/icon/19.png">
+                                                </picture>
+                                                <p>4倍聲望經驗券(5D)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">使用後5日內聲望經驗值增加4倍<br><span>※可交易</span></td>
+                                    <tr>
+                                    <tr>
+                                        <td rowspan="2">滿5000</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/20.webp" type="image/webp">
+                                                    <img src="img/icon/20.png">
+                                                </picture>
+                                                <p>黃金寶石一代</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">升級4~6級用強化石機率提升5%<br><span>※可交易</span></td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/21.webp" type="image/webp">
+                                                    <img src="img/icon/21.png">
+                                                </picture>
+                                                <picture>
+                                                    <source srcset="imgp/icon/22.webp" type="image/webp">
+                                                    <img src="img/icon/22.png">
+                                                </picture>
+                                                <p>藍色吉他/粉紅吉他</p>
+                                            </div>
+                                        </td>
+                                        <td>2選1</td>
+                                        <td class="tablel">玩具<br><span>※可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>滿10000</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/23.webp" type="image/webp">
+                                                    <img src="img/icon/23.png">
+                                                </picture>
+                                                <p>菲尼寶寶</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">寵物<br>力量+10 敏捷+10 靈力+10 意念+10<br><span>※30日/不可交易</span></td>
+                                    <tr>
+                                    <tr>
+                                        <td>滿15000</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/03.webp" type="image/webp">
+                                                    <img src="img/icon/03.png">
+                                                </picture>
+                                                <p>鬼武者套裝(30D)</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">力量+45 敏捷+45 靈力+45 意念+45
+                                            AP+50 DP+280 HP+500 SP+500 Speed+25 攻速+25% 命中+7 格檔+7<br><span>※30日/不可交易<br>※右擊開箱後，使用期限為30日</span>
+                                        </td>
+                                    <tr>
+                                    <tr>
+                                        <td>滿20000</td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/24.webp" type="image/webp">
+                                                    <img src="img/icon/24.png">
+                                                </picture>
+                                                <p>哈雷機車鑰匙</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">裝備在特殊欄可召喚機車，雙人/速度6.5<br><span>※可交易</span>
+                                        </td>
+                                    <tr>
+                                </table>
+                            </div>
+                            <a href="###" class="popbox Popupbtn" data-activity="pre_08">注意事項</a>
+                        </div>
+                    </div>
+
+                    <!-- 萬聖節的請託 pre_09 -->
+                    <div id="tab09" class="pre_09">
+                        <div class="innerinfo marg0">
+                            <div class="tab-ti tab-ti09 imgs"></div>
+                            <div class="infobox"><h4>萬聖節來臨，怪物將市民們的東西搶走啦！<br>
+                                活動期間內，前往波本市尋找活動NPC［羅伯特］進行對話，即可接取活動任務。<br>
+                                消滅與同玩家等級以上或不低於9級的目標，有機率掉落【萬聖節寶箱】。</h4></div>
+                            <div class="infoti ti-line marg0 imgs">
+                                <h2>活動時間</h2>
+                            </div>
+                            <div class="infobox"><h4>2022/10/27 ~ 2022/11/17 維護前</h4></div>
+                            <div class="infoti ti-line marg0 imgs"><h2>參與條件</h2></div>
+                            <div class="infobox"><h4>Lv30以上</h4></div>
+                            <div class="imgbox">
+                                <picture>
+                                    <source srcset="imgp/tab-award08.webp" type="image/webp">
+                                    <img src="img/tab-award08.png">
+                                </picture>
+                                <picture>
+                                    <source srcset="imgp/tab-award09.webp" type="image/webp">
+                                    <img src="img/tab-award09.png">
+                                </picture>
+                            </div>
+                            <div class="tablebox">
+                                <table>
+                                    <thead>
+                                        <th colspan="4" class="table_title"><div class="infoti">獎勵說明</div>
+                                        </th>
+                                    </thead>
+                                    <tr>
+                                        <th class="table_props">道具名稱</th>
+                                        <th class="table_props_pre09">內容物</th>
+                                        <th class="table_number">數量</th>
+                                        <th>道具說明</th>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="11">
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/0.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/0.png">
+                                                </picture>
+                                                <p>萬聖節寶箱</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/1.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/1.png">
+                                                </picture>
+                                                <p>紅色南瓜</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">HP+500<br><span>※可交易</span></td>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/2.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/2.png">
+                                                </picture>
+                                                <p>藍色南瓜</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">SP+500<br><span>※可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/3.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/3.png">
+                                                </picture>
+                                                <p>布</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">波本市【服裝店2】老闆娘可能會有興趣<br><span>※15日/任務道具</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/4.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/4.png">
+                                                </picture>
+                                                <p>梳子</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">樂透市【銀行】職員的物品<br><span>※15日/任務道具</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/5.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/5.png">
+                                                </picture>
+                                                <p>喜鵲羽毛</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">自由之都【車站】站務員的物品<br><span>※15日/任務道具</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/6.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/6.png">
+                                                </picture>
+                                                <p>小旋風鑰匙</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">速度6.0<br><span>※15日/不可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/7.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/7.png">
+                                                </picture>
+                                                <p>萬聖節魔法</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">大頭效果<br><span>※可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/8.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/8.png">
+                                                </picture>
+                                                <p>奈米寶石A</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">升級+1~+3道具時使用的強化石<br><span>※可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/9.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/9.png">
+                                                </picture>
+                                                <p>大嘴小丑面具</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">DP+10<br><span>※15日/不可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/10.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/10.png">
+                                                </picture>
+                                                <p>顝顱怪人面具</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">AP+10 DP+4 力量+7 敏捷+7 貿易+3 移動速度+5<br><span>※15日/不可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/11.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/11.png">
+                                                </picture>
+                                                <p>蚩尤天王面具</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">AP+10 DP+4 靈力+7 意念+7 貿易+3 移動速度+5<br><span>※15日/不可交易</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="propsbox">
+                                                <picture>
+                                                    <source srcset="imgp/icon/halloween/12.webp" type="image/webp">
+                                                    <img src="img/icon/halloween/12.png">
+                                                </picture>
+                                                <p>萬聖節死神</p>
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td class="tablel">移動速度+10<br><span>※可交易/不可維修</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="infoti ti-line marg0 imgs margt24"><h2>萬聖節限定面具</h2></div>
+                            <div class="infobox"><h4>開啟【萬聖節寶箱】後隨機獲得【布】、【梳子】、【喜鵲羽毛】，<br>可分別去【波本市】、【自由之都】、【樂透市】與NPC兌換【死神的碎片(頭部)】【死神的碎片(上半身)】【死神的碎片(下半身)】<br>最終，用3個死神碎片兌換寵物【死神】。</h4></div>
+                            <div class="tablebox">
+                                <table>
+                                    <thead>
+                                        <th colspan="3" class="table_title"><div class="infoti">道具說明</div>
+                                        </th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>道具名稱</th>
+                                            <th>兌換地點</th>
+                                            <th>兌換道具</th>
+                                        </tr>
+                                        <tr>
+                                            <td>布</td>
+                                            <td>波本</td>
+                                            <td>死神的碎片(頭部)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>梳子</td>
+                                            <td>自由之都</td>
+                                            <td>死神的碎片(上半身)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>喜鵲羽毛</td>
+                                            <td>樂透市</td>
+                                            <td>死神的碎片(下半身)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <a href="###" class="popbox Popupbtn" data-activity="pre_09">注意事項</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="blockade">
+                <div class="blockade-up imgs"></div>
+                <div class="blockade-down imgs"></div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footerbox">
+                <div class="footerbox_logo">
+                    <a class="logo_digeam"></a>
+                    <a class="logo_rw"></a>
+                </div>
+                <div class="spec">
+                    <p class="Copyright">掘夢網股份有限公司&copy;2022<br>Copyright&copy;DiGeam Corporation. All Rights Reserved.</p>
+                    <a href="https://www.digeam.com/terms" target="_blank">會員服務條款</a>
+                    <a href="https://www.digeam.com/terms2" target="_blank">隱私條款</a>
+                </div>
+                <div class="classlavel">
+                    <img src="img/icon_15.png" alt="輔15級">
+                    <ul>
+                        <li>本遊戲為免費使用，部分內容涉及暴力情節。</li>
+                        <li>遊戲內另提供購買虛擬遊戲幣、物品等付費服務。</li>
+                        <li>請注意遊戲時間，避免沉迷。</li>
+                        <li>本遊戲服務區域包含台灣、香港、澳門。</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

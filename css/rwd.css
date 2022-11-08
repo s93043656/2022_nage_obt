@@ -1,0 +1,309 @@
+@media screen and (min-width: 1441px){
+    #menuToggle{
+        display: none;
+    }
+    /* === 內容 === */
+    .rwdtabarea{
+        display: none;
+    }
+
+}
+@media (max-width: 1600px){
+
+}
+@media (max-width: 1536px){
+    
+}
+@media (max-width: 1440px){
+    #menuToggle{
+        display: none;
+    }
+    .page05rwdplay{display: none;opacity: 0;}
+
+    /* === page01 === */
+    .page01-bti,.page01-sti{
+        background-size: contain;
+    }
+    .page01-bti{
+        width: 60%;
+        height: 16vw;
+    }
+    .page01-sti{
+        width: 40%;
+        height: 5.7vw;
+    }
+    .page01{
+        height: 65vw;
+    }
+    .page01 .logo{
+        width: 20.2vw;
+        height: 12.6vw;
+        margin: 10px 10px;
+    }
+    nav .logo{
+        width: 20.2vh;
+        height: 12.6vh;
+    }
+    .page01btnbox .book,.page01btnbox .download,.page01btnbox .register{
+        width: 12.8vw;
+        height: 7.4vw;
+        background-size: contain;
+    }
+
+    /* === 字體 === */
+    body{font-size: 16px;}
+    .popti{font-size: 22px;}
+    h2,.infoti{font-size: 18px;}
+    h4{font-size: 16px;}
+    .blockade{display: none;}
+
+    /* === nav === */
+    .container{
+        width: 95%;
+    }
+    .page02 nav{
+        display: none;
+    }
+    .rwdmenu nav{
+        position: relative;
+        margin-left: 0;
+    }
+    .tabarea{margin-left: 0;}
+    .tabeventbox{
+        width: 100%;
+        min-height: 0;
+    }
+    .page02{
+        min-height: 0
+    }
+
+    /* === 內容 === */
+    .tabarea{
+        display: none;
+    }
+    .rwdtabarea{
+        display: block;
+    }
+
+    /* === 標題 === */
+    .tab-ti{
+        width: 100%;
+        background-size: contain;
+        margin: 10px auto;
+    }
+    .infobox{
+        width: 90%;
+    }
+
+    /* === table-表格=== */
+    table{
+        width: 90%;
+    }
+    .innerinfo{
+        min-height: 0;
+        width: 100%;
+        margin-left: 0;
+        padding: 0 15px 30px 15px;
+    }
+
+    /* === pop-注意事項 === */
+    .popbox{
+        position: relative;
+        width: 125px;
+        height: 45px;
+        -webkit-writing-mode: horizontal-tb;
+        writing-mode: horizontal-tb;
+        border-radius: 3px;
+        bottom: 0; 
+        right: 0;
+        margin: 30px auto;
+    }
+}
+@media (max-width: 1366px){
+
+}
+@media (max-width: 1280px){
+
+}
+@media (max-width: 1024px){
+    #menuToggle{
+        display: block;
+    }
+    .container{
+        width: 95%;
+    }
+    /* === pop === */
+    .popbg{
+        width: 90%;
+    }
+    /* ------------topbar------------- */
+    .page01 .iconbox{
+        display: none;
+        opacity: 1;
+        pointer-events: none;
+    }
+    .rwdtopbar-iconbox{
+        display: flex;
+    }
+    /* === 標題 === */
+    .tab-title{
+        width: 85%;
+        margin-left: 50px;
+    }
+    /* === page01 === */
+    .page01tibox{
+        margin-top: 11%;
+    }
+    /* ========== footer ========== */
+    .footer {align-items: center;}
+    .footerbox {
+        max-width: 90%;
+        font-size: 12px;
+        line-height: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footerbox_logo {
+        width: 100%;
+        align-items: center;
+    }
+    .spec {
+        width: 100%; 
+        text-align: center;
+        order: 1;
+    }
+    .spec, .classlavel {margin: 20px 0;}
+    a.logo_rw, .classlavel {margin: 10px auto;}
+    .footerbox_logo{flex-direction: column;}
+
+}
+@media (max-width: 767px){
+    /* === 字體 === */
+    body{font-size: 14px;}
+    /* h2{font-size: 16px;} */
+    h4,td{font-size: 14px;}
+    .blockade{display: none;}
+    /* === page01 === */
+    .page01{
+        height: 780px;
+    }
+    .page01tibox{
+        margin-top: 22%;
+    }
+    .page01-bti{
+        width: 72.3vw;
+        height: 29vw;
+    }
+    .page01-sti{
+        width: 55.4vw;
+        height: 8.7vw;
+    }
+    .page01btnbox .book, .page01btnbox .download, .page01btnbox .register{
+        width: 21.8vw;
+        height: 12.4vw;
+    }
+    /* ----------------------- input-異常糾察隊-start ----------------------- */
+    .uploadbox{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    /* === table-表格=== */
+    .propsbox{
+        flex-direction: column;
+    }
+
+    /* ========== footer ========== */
+    .classlavel {
+        background-size: 100% auto;
+    }
+}
+@media (max-width: 514px){
+    .rwd-humburger-box{
+        right: 13%;
+    }
+    /* === page01 === */
+    .page01{
+        height: 660px;
+    }
+    .page01tibox{
+        margin-top: 40%;
+    }
+    .page01btnbox .book,.page01btnbox .download,.page01btnbox .register{
+        width: 60%;
+        height: 84px;
+        background-size: contain;
+    }
+
+    /* === table-表格=== */
+    .table_props{
+        width: 23%;
+    }
+    .table_number, .table_number_pre09{
+        width: 18%;
+    }
+    .table_props_pre04,.table_props_pre06{
+        width: 26%;
+    }
+    .table_props_pre02,.table_props_pre09,.table_props_pre07{
+        width: 30%;
+    }
+    .table_props_pre03{
+        width: 35%;
+    }
+
+}
+@media (max-width: 415px){
+    /* === page01 === */
+    .page01tibox{
+        margin-top: 62%;
+    }
+    .inputbox{
+        width: 90%;
+    }
+    .uploadbox-btn{
+        padding: 0px 12px;
+    }
+    /* === 標題 === */
+    .tab-title{
+        margin-left: 23px;
+    }
+    .pre_09 .imgbox{
+        flex-direction: column;
+    }
+}
+@media (max-width: 375px){
+    /* === page01 === */
+    .page01{
+        height: 580px;
+    }
+    .page01tibox{
+        margin-top: 53%;
+    }
+    /* === table-表格=== */
+    .table_props{
+        width: 28%;
+    }
+    .table_number_pre04{
+        width: 27%;
+    }
+    .table_props_pre04,.table_props_pre06{
+        width: 28%;
+    }
+    .table_props_pre02,.table_props_pre09,.table_props_pre07{
+        width: 35%;
+    }
+    .table_props_pre03{
+        width: 35%;
+    }
+    .table_lv{
+        width: 17%;
+    }
+    .table_money_pre09{
+        width: 34%;
+    }
+}
+@media (max-width: 320px){
+    .table_number{
+        width: 25%;
+    }
+}
